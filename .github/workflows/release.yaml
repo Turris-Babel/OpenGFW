@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         goos: [linux]
-        goarch: ["386", amd64, arm64,armv5,armv7,armv8]
+        goarch: ["386", amd64, arm64,armv5]
 
     steps:
       - uses: actions/checkout@v4
